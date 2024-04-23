@@ -7,5 +7,5 @@ import lombok.Setter;
 @Setter
 public class Bot extends Player{
 
-    BotLevel botlevel;
+    private BotLevel botlevel;
 }

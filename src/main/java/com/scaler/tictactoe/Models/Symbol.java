@@ -7,5 +7,5 @@ import lombok.Setter;
 @Setter
 public class Symbol {
 
-    char sign;
+    private char sign;
 }

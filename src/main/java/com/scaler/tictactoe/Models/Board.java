@@ -9,6 +9,6 @@ import java.util.List;
 @Setter
 public class Board {
 
-    int size;
-    List<List<Cell>> cells ;
+    private int size;
+    private List<List<Cell>> cells ;
 }

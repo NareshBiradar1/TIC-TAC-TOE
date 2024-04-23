@@ -7,8 +7,8 @@ import lombok.Setter;
 @Setter
 public class Cell {
 
-    Player player;
-    int row;
-    int col;
-    CellState cellState;
+    private Player player;
+    private int row;
+    private int col;
+    private CellState cellState;
 }

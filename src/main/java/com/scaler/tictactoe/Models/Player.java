@@ -7,8 +7,8 @@ import lombok.Setter;
 @Setter
 public class Player {
 
-    String name;
-    Symbol symbol;
+    private String name;
+    private Symbol symbol;
 
-    PlayerState playerState;
+    private PlayerState playerState;
 }

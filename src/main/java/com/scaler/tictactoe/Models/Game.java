@@ -10,10 +10,10 @@ import java.util.List;
 @Setter
 public class Game {
 
-    Board board;
-    List<Player> players;
-    List<Move> moves;
-    GameState gameState ;
-    Player winner;
-    int nextPlayerIndex ;
+    private Board board;
+    private List<Player> players;
+    private List<Move> moves;
+    private GameState gameState ;
+    private Player winner;
+    private int nextPlayerIndex ;
 }
