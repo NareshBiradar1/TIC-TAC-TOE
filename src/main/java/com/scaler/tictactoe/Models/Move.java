@@ -7,4 +7,8 @@ import lombok.Setter;
 @Setter
 public class Move {
     Cell cell;
+
+    public Move(Cell cell) {
+        this.cell = cell;
+    }
 }

@@ -11,4 +11,12 @@ public class Cell {
     private int row;
     private int col;
     private CellState cellState;
+
+    public Cell(int row, int col) {
+        this.player = null;
+        this.row = row;
+        this.col = col;
+        this.cellState = CellState.empty;
+    }
+
 }
